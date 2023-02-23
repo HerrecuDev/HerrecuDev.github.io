@@ -1,0 +1,89 @@
+*{
+    border: red 2px solid;
+}
+
+/*NAVEGACÍÓN*/
+nav 
+{
+    background-color: #BA83F0;
+    height: 30%;
+    width: 100%;
+    
+
+
+}
+
+nav ul /* MENU DE LA PARTE SUPERIOR */
+{
+  text-align: center;
+  display: inline;
+ 
+ 
+
+}
+
+nav li 
+{
+    display: inline-block;
+    
+
+}
+/* Header */
+header img
+{
+
+    width: 100%;
+    background-image: url("imagenes/fondoHeader.jpg");
+
+}
+#fotoarcade img
+{
+    
+    width: 50%;
+    height: 30%;
+    position: relative;
+    
+    margin-left: 49%;
+    
+}
+
+
+/* section*/
+section 
+{
+
+    width: 40%;
+    height: 30%;
+    position: relative;
+
+}
+section img
+{
+   
+}
+
+/* article */
+
+section
+{
+    width: 100%;
+
+}
+section img
+{
+    width: 100%;
+}
+
+
+/*Footer*/
+
+footer  
+{ 
+    
+}
+
+footer section 
+{
+  
+
+}
