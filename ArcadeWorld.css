@@ -1,5 +1,18 @@
-*{
-    border: red 2px solid;
+/*RESETEAMOS PROPIEDADES*/
+*
+{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   margin-left: 0px;
+   margin-right: 0px;
+   text-align: justify;
+}
+
+a
+{
+    text-decoration:  none;
+    text-transform: capitalize;
 }
 
 /*NAVEGACÍÓN*/
@@ -29,6 +42,10 @@ nav li
 
 }
 /* Header */
+h1
+{
+
+}
 header img
 {
 
@@ -36,42 +53,86 @@ header img
     background-image: url("imagenes/fondoHeader.jpg");
 
 }
-#fotoarcade img
+
+
+/* MAIN*/
+h2
+{
+   
+    margin-left: 10%;
+}
+h3
 {
     
-    width: 50%;
-    height: 30%;
-    position: relative;
-    
-    margin-left: 49%;
-    
+   
+    margin-left: 10%;
 }
-
-
-/* section*/
-section 
-{
-
-    width: 40%;
-    height: 30%;
-    position: relative;
-
-}
-section img
+main 
 {
    
 }
+main section p
+{
+    width: 28%;
+    height: 60%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 30px;
+}
 
-/* article */
 
-section
+main section  img
+{
+    
+    width: 50%;
+    height: 20%;
+    
+    float: right;
+    /* margin-left: 35%; */
+    margin-top: 0;
+   
+    
+   
+    
+}
+
+
+/* ASIDE */
+h4
+{
+    text-align: center;
+}
+h5
+{
+    text-align: center;
+}
+
+aside section
+{
+    margin-top: 40%;
+    text-align: center;
+}
+
+#mueblesbartop
 {
     width: 100%;
 
 }
-section img
+#mueblesbartop img
 {
-    width: 100%;
+    width: 20%;
+    height: 20%;
+}
+
+#muebleslowboy
+{
+    width: 20%
+    
+}
+#muebleslowboy img
+{
+    width: 50%;
+    height: 20%;
 }
 
 
