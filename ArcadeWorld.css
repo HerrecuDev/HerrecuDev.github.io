@@ -19,65 +19,100 @@ a
 nav 
 {
     background-color: #BA83F0;
-    height: 30%;
-    width: 100%;
-    
-
-
+    height: 80px;
+    text-align: center;
 }
+/* MENU DE LA PARTE SUPERIOR */
 
-nav ul /* MENU DE LA PARTE SUPERIOR */
+
+nav ul 
 {
-  text-align: center;
+ 
   display: inline;
- 
- 
+  font-size: x-large;
 
 }
 
 nav li 
 {
     display: inline-block;
+    text-align: center;
     
-
+    width: 15%;
+    margin: 20px;
+   
+}
+nav li:hover
+{
+    font-weight: bold;
+    background-color: black;
 }
 /* Header */
 h1
 {
-
+    text-align: center;
+    border: 5px solid red;
+    font-size: 500%;
+    color: white;
+    
+   
 }
-header img
+header p
 {
-
-    width: 100%;
-    background-image: url("imagenes/fondoHeader.jpg");
-
+text-align: center;
+font-size: x-large;
+color: white;
+margin-top: 2%;
 }
+
+header
+{
+  
+    background-image: url("imagenes/fondoHeader3.jpg");
+    border: 5px solid red;
+    height: 850px;
+    
+    
+}
+header button
+{
+    font-size: 40px;
+    margin-left: 40%;
+    margin-top: 8%;
+    border-radius: 30px;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+}
+
 
 
 /* MAIN*/
 h2
 {
+    
+    margin-left: 15%;
+    margin-top: 40px;
    
-    margin-left: 10%;
+    
 }
 h3
 {
-    
-   
+
     margin-left: 10%;
 }
-main 
+
+section h2
 {
-   
+    margin-top: 50px;
 }
+
 main section p
 {
-    width: 28%;
-    height: 60%;
-    position: relative;
-    margin-left: 10%;
-    margin-top: 30px;
+    width: 30%;
+    margin-left: 80px;
+   
+    padding: 10px;
 }
 
 
@@ -85,14 +120,10 @@ main section  img
 {
     
     width: 50%;
-    height: 20%;
-    
+    height: 80%;
+    position: absolute;
     float: right;
-    /* margin-left: 35%; */
-    margin-top: 0;
-   
-    
-   
+    margin-left: 45%;
     
 }
 
@@ -100,51 +131,126 @@ main section  img
 /* ASIDE */
 h4
 {
+    
     text-align: center;
+    font-size: xx-large;
+    background-color: #BA83F0;
+    border: 5px solid red;
+    height: 120px;
+    
+    
 }
 h5
 {
     text-align: center;
+    font-size: x-large;
+    margin-top: 5%;
+    color: #BA83F0;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 35%;
+    background-color: black;
+    
 }
+
 
 aside section
 {
-    margin-top: 40%;
+   
     text-align: center;
+    border: 5px solid red;
+   
 }
+
+/* SECCIONES TIPOS DE MUEBLES */
 
 #mueblesbartop
 {
-    width: 100%;
-
+    margin-top: 40%;
+   
+    
+   
+   
 }
+
+
+
 #mueblesbartop img
 {
     width: 20%;
-    height: 20%;
-}
-
-#muebleslowboy
-{
-    width: 20%
+    border-radius: 10px;
+    margin-top: 5%;
     
 }
+
 #muebleslowboy img
 {
-    width: 50%;
-    height: 20%;
-}
-
-
-/*Footer*/
-
-footer  
-{ 
+    width: 20%;
+    margin-top: 5%;
     
 }
 
-footer section 
-{
-  
 
+/* SECCION DE CONTACTO */
+h6
+{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+
+/* Formato de la caja: */
+
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 35%;
+    background-color: black;
+   
+}
+
+
+
+#contacto  
+{ 
+    border: 5px solid red;
+    background-color: #BA83F0;
+    height: 500px;
+}
+
+
+#contacto h6
+{
+    border: 5px solid red;
+    margin-top: 25px;
+   
+}
+#contacto p
+{
+    margin-top: 30px;
+    text-align: center;
+    font-size: large;
+}
+#contacto li
+{
+    /* border: 5px solid red; */
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* FOOTER */
+footer
+{
+    border: 5px solid red;
+    height: 60px;
+    background-color:black
+   
+}
+footer p
+{
+    text-align: center;
+    margin-top: 10px;
+    color: #BA83F0;
+    width: 100%;
+  
+    
 }
