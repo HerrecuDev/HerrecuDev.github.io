@@ -110,6 +110,7 @@ h1
     /* border: 5px solid red; */
     font-size: 500%;
     color: white;
+    padding-top: 120px;
     
    
 }
@@ -118,15 +119,15 @@ header p
 text-align: center;
 font-size: x-large;
 color: white;
-margin-top: 2%;
+padding-top: 30px;
 }
 
 header
 {
   
-    background-image: url("imagenes/fondoHeader3.jpg");
+    background-image: url("imagenes/fondoheader.jpg");
     /* border: 5px solid red; */
-    height: 850px;
+    height: 900px;
     
     
 }
@@ -134,11 +135,12 @@ header button
 {
     font-size: 40px;
     margin-left: 40%;
-    margin-top: 8%;
-    border-radius: 30px;
+    margin-top: 12%;
+    border-radius: 20px;
     width: 20%;
     height: 100px;
     text-align: center;
+    
 }
 
 
