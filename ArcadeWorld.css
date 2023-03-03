@@ -20,8 +20,8 @@ a
 nav
 {
     background-color: #BA83F0;
-
-    height: 60%;
+    
+    padding: 20px;
 }
 nav ul 
 {
@@ -80,15 +80,17 @@ nav ul ul
 }
 nav ul ul li
 {
-    float: none;
-    width: 100%;
+    /* float: none;
+    width: 100%; */
+    display: block;
     
 }
 nav ul ul a
 {    
-    line-height: 100%;
-    padding: 10px 15px;
-    /* border: 5px solid red; */
+    line-height: 50%;
+    /* padding: 20px 30px; */
+    font-size: small;
+    display: block;
 }
 
 nav ul li:hover > ul
