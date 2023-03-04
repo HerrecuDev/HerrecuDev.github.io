@@ -11,7 +11,7 @@
 
 a
 {
-    /* text-decoration:  none; */
+    text-decoration:  none;
     text-transform: capitalize;
 }
 
@@ -21,7 +21,6 @@ nav
 {
     background-color: #BA83F0;
     
-    padding: 20px;
 }
 nav ul 
 {
@@ -35,9 +34,10 @@ nav ul
 nav ul li 
 {
     display: inline-block;
-    /* border: 5px solid red; */
-    line-height: 60%;
-    height: 10%;
+    border: 5px solid red;
+    line-height: 50%;
+    width: 7%;
+    height: 30px;
     margin: 20px;
    
 }
@@ -48,8 +48,8 @@ nav ul a
     color: black;
     text-decoration: none;
     font-size: large;
-
     text-transform: uppercase;
+    
     
 
 }
@@ -58,7 +58,7 @@ nav ul li:hover
 {
     font-weight: bold;
     background-color:white;
-    width: 10%;
+    width: 8%;
     transition:all .5s;
     
    
@@ -73,29 +73,32 @@ nav ul ul
    padding: 0;
    left: 20px;
    background: white;
-   width: 30%;
-   height: 30%;
+   width: 8%;
+   height: 10%;
    
     
 }
 nav ul ul li
 {
-    /* float: none;
-    width: 100%; */
+    float: none;
+    width: 70%;
+    height: 40px;
     display: block;
     
 }
 nav ul ul a
 {    
-    line-height: 50%;
-    /* padding: 20px 30px; */
+    line-height: 80%;
+    /* padding: 25px 40px; */
     font-size: small;
-    display: block;
+    width: 50%;
+   
 }
 
 nav ul li:hover > ul
 {
     display: block;
+    
    
 }
 
@@ -151,7 +154,7 @@ h2
     margin-left: 13%;
     padding-top: 80px;
     font-size: 80px;
-    /* font-family: Kelly Slab; */
+    font-family: sans-serif;
     color: #BA83F0;
 
 }
@@ -211,7 +214,7 @@ h5
     width: 20%;
     height: 50px;
     padding: 10px;
-    margin-left: 35%;
+    margin-left: 40%;
     background-color: black;
     
 }
@@ -246,7 +249,23 @@ h5
 {
     width: 20%;
     margin-top: 5%;
+}
+#goku
+{
    
+    height: 750px;
+}
+#street
+{
+    height: 750px;
+}
+#pacman
+{
+    height: 750px;
+}
+#star
+{
+    height: 800px;
     
 }
 
