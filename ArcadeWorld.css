@@ -34,18 +34,18 @@ nav ul
 nav ul li 
 {
     display: inline-block;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     line-height: 50%;
     width: 7%;
     height: 30px;
     margin: 20px;
+    
    
 }
 /* enlances del Menu */
 nav ul a
 {
-    
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: large;
     text-transform: uppercase;
@@ -57,12 +57,27 @@ nav ul a
 nav ul li:hover
 {
     font-weight: bold;
-    background-color:white;
-    width: 8%;
-    transition:all .5s;
-    
-   
+    background-color: #BA83F0;
+    /* width: 25%; */
+    /* transition:all .5s; */
 }
+
+
+.checkbtn
+{
+    float: right;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 30px;
+
+    cursor: pointer;
+    display: none;
+}
+#check
+{
+    display: none;
+}
+
 
 /*  MENU DESPLEGABLE DEL NAV */
 
@@ -72,9 +87,8 @@ nav ul ul
    position: absolute;
    padding: 0;
    left: 20px;
-   background: white;
    width: 8%;
-   height: 10%;
+   height: 15%;
    
     
 }
@@ -87,18 +101,19 @@ nav ul ul li
     
 }
 nav ul ul a
-{    
-    line-height: 80%;
-    /* padding: 25px 40px; */
+{ 
+    font-weight: 800px;
     font-size: small;
-    width: 50%;
-   
+    margin: 0 5px;
+    
 }
 
 nav ul li:hover > ul
 {
     display: block;
-    
+    background-color: black;
+    width: 20%;
+   
    
 }
 
@@ -128,9 +143,11 @@ padding-top: 30px;
 header
 {
   
-    background-image: url("imagenes/fondoheader.jpg");
+    background: url("imagenes/fondoheader.jpg") no-repeat;
     /* border: 5px solid red; */
-    height: 900px;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
     
     
 }
@@ -344,7 +361,11 @@ footer p
 {
     nav
     {
-        padding: left 0;
+        padding: left 20px;
+    }
+    nav ul li a
+    {
+        font-size: 20px;
     }
 
 }
@@ -354,5 +375,41 @@ footer p
 
 @media(max-width : 858px) /*PARA MOVILES*/
 {
-    
+    .checkbtn
+    {
+        display: block;
+    }
+    ul
+    {
+        position: fixed;
+        width: 80%;
+        height: 100vh;
+        background: #BA83F0;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .3s;
+    }
+
+    nav ul li
+    {
+        display: block;
+        margin: 50px 0;
+        line-height: 40px;
+    }
+    nav ul li a
+    {
+        font-size: 20px;
+        
+        
+    }
+    li.a:hover , li.a.active
+    {
+        background: none;
+        color: black;
+    }
+    #check:checked ~ ul 
+    {
+        left: 0;
+    }
 }
