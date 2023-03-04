@@ -148,16 +148,18 @@ header button
 /* MAIN*/
 h2
 {
-    
-    margin-left: 15%;
-    margin-top: 40px;
-   
-    
+    margin-left: 13%;
+    padding-top: 80px;
+    font-size: 80px;
+    /* font-family: Kelly Slab; */
+    color: #BA83F0;
+
 }
 h3
 {
-
-    margin-left: 10%;
+    font-size: 30px;
+    margin-left: 16%;
+    color: #BA83F0;
 }
 
 section h2
@@ -167,10 +169,11 @@ section h2
 
 main section p
 {
-    width: 30%;
-    margin-left: 80px;
-   
-    padding: 10px;
+    width: 25%;
+    font-size: 25px;
+    margin-left: 14%;
+    margin-top: 30px;
+    padding: 12px;
 }
 
 
@@ -187,14 +190,15 @@ main section  img
 
 
 /* ASIDE */
-h4
+section h4
 {
     
     text-align: center;
     font-size: xx-large;
     background-color: #BA83F0;
-    /* border: 5px solid red; */
     height: 120px;
+    margin-top: 25%;
+    padding: 30px;
     
     
 }
@@ -202,32 +206,23 @@ h5
 {
     text-align: center;
     font-size: x-large;
-    margin-top: 5%;
     color: #BA83F0;
-    border-radius: 30px;
-    width: 30%;
+    border-radius: 50px;
+    width: 20%;
+    height: 50px;
+    padding: 10px;
     margin-left: 35%;
     background-color: black;
     
 }
 
 
-aside section
-{
-   
-    text-align: center;
-    /* border: 5px solid red; */
-   
-}
-
 /* SECCIONES TIPOS DE MUEBLES */
 
 #mueblesbartop
 {
-    margin-top: 40%;
-   
-    
-   
+    margin-top: 3%;
+    text-align: center;
    
 }
 
@@ -237,14 +232,21 @@ aside section
 {
     width: 20%;
     border-radius: 10px;
-    margin-top: 5%;
+    margin-top: 3%;
     
+    
+}
+#muebleslowboy
+{
+    margin-top: 10%;
+    text-align: center;
 }
 
 #muebleslowboy img
 {
     width: 20%;
     margin-top: 5%;
+   
     
 }
 
@@ -262,6 +264,7 @@ h6
     width: 30%;
     margin-left: 35%;
     background-color: black;
+    padding: 20px;
    
 }
 
@@ -271,14 +274,17 @@ h6
 { 
     /* border: 5px solid red; */
     background-color: #BA83F0;
-    height: 500px;
+    height: 900px;
+    border: 5px solid red;
+    margin-top: 10%;
+    
 }
 
 
 #contacto h6
 {
     /* border: 5px solid red; */
-    margin-top: 25px;
+    margin-top: 60px;
    
 }
 #contacto p
@@ -306,9 +312,9 @@ footer
 footer p
 {
     text-align: center;
-    /* margin-top: 10px; */
     color: #BA83F0;
     width: 100%;
+    padding: 20px;
   
     
 }
