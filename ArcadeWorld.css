@@ -24,20 +24,18 @@ nav
 nav ul 
 {
     display: inline;
-    margin-left: 20%;
-   
-    
+    margin-left: 30vh;
 }
 
 nav ul li 
 {
     display: inline-block;
     width: 8%;
-    margin: 50px;
+    margin: 5vh;
 }
 nav ul li i
 {
-    margin: 10px;
+    margin: 1vh;
     display: block;
 }
 /* enlances del Menu */
@@ -46,7 +44,7 @@ nav ul a
     color: white;
     font-size: large;
     text-transform: uppercase;
-    margin-left: 5px;
+    margin-left: 1vh;
 }
 
 nav ul li:hover
@@ -62,8 +60,8 @@ nav ul li:hover
 .checkbtn
 {
     float: right;
-    margin-right: 20px;
-    padding: 20px;
+    margin-right: 2vh;
+    padding: 17px;
     font-size: 30px;
 
     cursor: pointer;
@@ -81,23 +79,24 @@ nav ul ul
 {
    display: none;
    position: absolute;
-   margin-left: 0px;
-   margin-top: 10px;
+   margin-left: 0vh;
+   margin-top: 2vh;
    text-align: center;
    
 }
 nav ul ul li
 {
     float: none;
-    width: 60%;
-    margin: 5px;
-    padding: 2px;
+    width: 80%;
+    margin: 1vh;
+    padding: 2vh;
     font-size: 5px;
 }
 nav ul ul a
 { 
     font-size: small;
     color: black;
+    
 }
 
 nav ul li:hover > ul
@@ -106,6 +105,7 @@ nav ul li:hover > ul
     width: 17%;
     border-radius: 10px;
     background-color: blueviolet;
+   
 }
 
 
@@ -185,6 +185,7 @@ main section p
     margin-left: 14%;
     margin-top: 30px;
     padding: 12px;
+    padding-bottom: 20px;
 }
 
 
@@ -307,9 +308,7 @@ h6
 
 #contacto h6
 {
-    border: 5px solid red;
     margin-top: 60px;
-   
 }
 #contacto p
 {
@@ -380,11 +379,11 @@ footer p
     ul
     {
         position: fixed;
-        width: 500px;
-        height: 180vh;
+        width: 140%;
+        height: 100vh;
         background: #BA83F0;
-        top: 120px;
-        left: -140%;
+        top: 80px;
+        left: -200%;
         text-align: center;
         transition: all .3s;
     }
@@ -392,8 +391,9 @@ footer p
     nav ul li
     {
         display: block;
-        width: 30%;
-        height: 50px;
+        width: 100%;
+        margin: 30px 0;
+        line-height: 10px;
     }
     nav ul li a
     {
@@ -409,11 +409,6 @@ footer p
         left: 0;
     }
 
-    header
-    {
-        width: 100%;
-        height: 250%;
-    }
 
 
     header button
@@ -421,6 +416,8 @@ footer p
         display: inline-block;
         width: 40%;
         height: 40px;
+        margin-left: 27vh;
+        margin-top: 12vh;
         font-size: 20px;
     
     }
@@ -428,7 +425,7 @@ footer p
     main section
     {
         width: 20%;
-        height: 10%;
+        height: 500%;
        
         font-size: 20px;
     }
