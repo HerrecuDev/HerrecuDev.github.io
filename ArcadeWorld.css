@@ -30,7 +30,7 @@ nav ul
 nav ul li 
 {
     display: inline-block;
-    width: 8%;
+    width: 10%;
     margin: 5vh;
 }
 nav ul li i
@@ -51,9 +51,9 @@ nav ul li:hover
 {
     font-weight: bold;
     background-color: blueviolet;
-    width: 8%;
+    width: 10%;
     border-radius: 10px;
-    transition:all .5s;
+    /* transition:all .5s; */
 }
 
 
@@ -94,6 +94,7 @@ nav ul ul li
 }
 nav ul ul a
 { 
+    
     font-size: small;
     color: black;
     
@@ -102,10 +103,14 @@ nav ul ul a
 nav ul li:hover > ul
 {
     display: block;
-    width: 17%;
+    width: 19%;
     border-radius: 10px;
     background-color: blueviolet;
    
+}
+nav ul li:hover, nav ul li a.active
+{
+
 }
 
 
@@ -403,6 +408,10 @@ footer p
     {
         background: none;
         
+    }
+    li.a:hover > ul 
+    {
+        background: none;
     }
     #check:checked ~ ul 
     {
