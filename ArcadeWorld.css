@@ -54,7 +54,6 @@ nav ul li:hover
     width: 10%;
     height: 28px;
     border-radius: 5px;
-    /* transition:all .5s; */
 }
 
 
@@ -89,7 +88,7 @@ nav ul ul li
     float: none;
     width: 80%;
     margin: 1vh;
-    /* padding-left:2vh; */
+    padding-left:2vh;
     font-size: 5px;
 }
 nav ul ul a
@@ -104,7 +103,8 @@ nav ul ul a
 nav ul li:hover > ul
 {
     display: block;
-    width: 10%;
+    width: 15%;
+    font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
     background-color:blueviolet;
    
