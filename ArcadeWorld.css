@@ -4,7 +4,7 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   text-align: justify;
+   
    
 }
 
@@ -24,7 +24,7 @@ nav
 nav ul 
 {
     display: inline;
-    margin-left: 30vh;
+    margin-left: 20%;
 }
 
 nav ul li 
@@ -42,7 +42,7 @@ nav ul li i
 nav ul a
 {
     color: white;
-    font-size: large;
+    font-size: medium;
     text-transform: uppercase;
     margin-left: 1vh;
 }
@@ -52,7 +52,8 @@ nav ul li:hover
     font-weight: bold;
     background-color: blueviolet;
     width: 10%;
-    border-radius: 10px;
+    height: 28px;
+    border-radius: 5px;
     /* transition:all .5s; */
 }
 
@@ -80,8 +81,7 @@ nav ul ul
    display: none;
    position: absolute;
    margin-left: 0vh;
-   margin-top: 2vh;
-   text-align: center;
+   /* text-align: center; */
    
 }
 nav ul ul li
@@ -89,29 +89,27 @@ nav ul ul li
     float: none;
     width: 80%;
     margin: 1vh;
-    padding: 2vh;
+    /* padding-left:2vh; */
     font-size: 5px;
 }
 nav ul ul a
 { 
-    
     font-size: small;
     color: black;
+    
+    
     
 }
 
 nav ul li:hover > ul
 {
     display: block;
-    width: 19%;
+    width: 10%;
     border-radius: 10px;
-    background-color: blueviolet;
+    background-color:blueviolet;
    
 }
-nav ul li:hover, nav ul li a.active
-{
 
-}
 
 
 
@@ -353,7 +351,8 @@ footer p
 {
     nav
     {
-        padding: left 20px;
+        margin-left: 0;
+        
     }
     nav ul
     {
@@ -384,19 +383,18 @@ footer p
     ul
     {
         position: fixed;
-        width: 140%;
+        width: 80%;
         height: 100vh;
         background: #BA83F0;
         top: 80px;
-        left: -200%;
-        text-align: center;
+        left: -140%;
         transition: all .3s;
     }
 
     nav ul li
     {
         display: block;
-        width: 100%;
+        width: 50%;
         margin: 30px 0;
         line-height: 10px;
     }
