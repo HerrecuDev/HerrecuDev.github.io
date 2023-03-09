@@ -169,12 +169,12 @@ h2
     color: #BA83F0;
 
 }
-h3
+/* h3
 {
     font-size: 30px;
     margin-left: 16%;
     color: #BA83F0;
-}
+} */
 
 section h2
 {
@@ -204,8 +204,8 @@ main section  img
 }
 
 
-/* ASIDE */
-section h4
+
+section h3
 {
     
     text-align: center;
@@ -215,7 +215,7 @@ section h4
     margin-top: 25%;
     padding: 30px;
 }
-h5
+h4
 {
     text-align: center;
     font-size: x-large;
@@ -280,8 +280,9 @@ h5
 }
 
 
-/* SECCION DE CONTACTO */
-h6
+/* FOOTER */
+
+h5
 {
     text-align: center;
     font-size: x-large;
@@ -327,7 +328,7 @@ h6
 }
 
 
-/* FOOTER */
+
 footer
 {
     /* border: 5px solid red; */
