@@ -282,7 +282,7 @@ h4
 
 /* FOOTER */
 
-h5
+h4
 {
     text-align: center;
     font-size: x-large;
@@ -310,7 +310,7 @@ h5
 }
 
 
-#contacto h6
+#contacto h5
 {
     margin-top: 60px;
 }
