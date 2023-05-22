@@ -91,12 +91,13 @@ function formulario()
     /**Conversion del objeto JavaScript en un String JSON */
     
     var datosUsuario = JSON.stringify(datosObtenidos);
-    alert(datosUsuario);
+    
     
     Swal.fire
     ({
         icon:'success',
-        text:'Registro Completado'
+        title: 'Registro Completado',
+        text: datosUsuario
 
     })
 }
