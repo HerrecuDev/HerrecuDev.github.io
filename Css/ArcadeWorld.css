@@ -1,0 +1,501 @@
+/*Ñdimos la fuente de la página*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Press+Start+2P&family=Roboto:wght@500&display=swap');
+
+
+/*RESETEAMOS PROPIEDADES*/
+*
+{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-transform: capitalize;
+   
+   
+}
+
+a
+{
+    text-decoration:  none;
+}
+/*BODY*/
+body
+{
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* NAV */
+
+nav
+{
+    background-color: #BA83F0;
+    
+}
+nav img /*Logo de la web*/
+{
+    width: 5%;
+    height: 8%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10px;
+    
+    
+}
+
+nav #botonInicio
+{
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10%;
+    background-color: white;
+   
+}
+nav #botonInicio:hover
+{
+    
+    font-weight: bold;
+    background-color:#ffe100;
+}
+
+nav #carrito
+{
+    float: right;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+nav ul 
+{
+    display: inline;
+    margin-left: 15%;
+    
+}
+
+nav ul li /*Caja del Nav Completa*/
+{
+    display: inline-block;
+    padding: 25px;
+    margin: 20px;
+   
+    
+}
+nav ul li i
+{
+    margin: 2px;
+    display: block;
+}
+/* enlances del Menu */
+nav ul a
+{
+    color: black;
+    font-size: large;
+    text-transform: uppercase;
+    margin-left: 2px;
+    
+}
+
+nav ul li:hover
+{
+    font-weight: bold;
+    background-color: white;
+    
+}
+
+
+.checkbtn
+{
+    float: right;
+    margin-right: 2px;
+    padding: 17px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#check
+{
+    display: none;
+}
+
+
+/*  MENU DESPLEGABLE DEL NAV */
+
+nav ul ul
+{
+   display: none;
+   position: absolute;
+   margin-left: -20px;
+   
+}
+
+nav ul ul li
+{
+    padding: 5% 20%;
+
+   
+   
+}
+nav ul ul a
+{ 
+    font-size: small;
+    color: black;
+    
+    
+}
+
+nav ul li:hover > ul
+{
+    display: block;
+    width: 15%;
+    margin-top: 1%;
+    margin-left: -1%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:blueviolet;
+   
+}
+
+
+
+
+
+
+/* Header */
+
+header
+{
+    padding: 25%;
+    background: url("../imagenes/fondoheader.jpg") no-repeat right;
+    /* border: 5px solid red; */
+    background-position: center center;
+}
+header h1
+{
+   
+    font-size: 500%;
+    margin-top: -35%;
+    color: #ffe100;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+
+header p
+{
+    font-size: x-large;
+    color: white;
+    text-align:  center;
+    margin-top: 4%;
+    padding-bottom: 10%;
+
+}
+
+
+header a
+{
+    font-size: 300%;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-left: 40%;
+    color: #BA83F0;
+    background-color: black;
+    /* border: 5px solid red; */
+}
+
+
+
+/* MAIN*/
+
+/*Section Presentacion*/
+
+main #presentacion
+{
+    /* border: 5px solid red; */
+    padding: 25%;
+    background: url(../imagenes/FOTODEACERCADE.jpg) no-repeat right;
+}
+#presentacion h2
+{
+    width: 70%;
+    font-size: 90px;
+    margin-top: -30%;
+    margin-left: -20%;
+   
+
+}
+#presentacion h3
+{
+    width: 65%;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: -18%;
+
+}
+
+#presentacion li 
+{
+    width: 55%;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: -20%;
+}
+
+#presentacion li a
+{
+    color: #BA83F0;
+}
+
+/*Section Proyectos*/
+
+
+section h4
+{
+    
+    text-align: center;
+    font-size: xx-large;
+    background-color: #BA83F0;
+    height: 120px;
+    padding: 30px;
+    /* border: 5px solid red; */
+}
+main section h5
+{
+    text-align: center;
+    font-size: x-large;
+    color: #BA83F0;
+    background-color:  black;
+
+    padding: 20px;
+    margin: 40%;
+    margin-top: 30px;
+    margin-bottom: 0;
+    /* border: 5px solid red; */
+    
+
+}
+
+
+/* SECCIONES TIPOS DE MUEBLES */
+
+#bartop img
+{
+    
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    border: 5px solid blueviolet;
+    
+}
+
+/*Configuracion de las imagenes Bartop*/
+
+#lowboy img
+{
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    border: 5px solid blueviolet;
+    
+}
+
+
+
+/* FOOTER */
+/*Seccion de Contacto*/
+footer
+{
+    height: 20%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);     
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+footer section 
+{
+    font-size: 20px;
+    flex-basis: 30%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    
+}
+  
+footer section h6 
+{
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    
+}
+footer section li
+{
+    list-style-type: none;
+}
+footer section li a
+{
+    color: white;
+    width: 40%;
+    padding: 0 15px;
+    display: block;
+    margin-bottom: 15px;
+    transition: all 1s ease;
+   
+    
+}
+
+footer section li a:hover
+{
+    color: whitesmoke;
+    padding-left: 6px;
+}
+
+
+footer section a i
+{
+    
+    display: inline-block;
+    min-height: 20px;
+    width: 40px;
+    background-color:white;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    
+    border-radius: 30%;
+    
+    color: black;
+    
+    
+    
+}
+/*Redes sociales*/
+
+/*Footer @*/
+
+footer small
+{
+    color: #BA83F0;
+    width: 100%;
+    padding: 2%;
+    background-color: black;
+    text-align: center;
+    
+    
+}
+
+
+
+/* Para Aplicar bien el Responsive */
+@media(max-width : 952px) /*PARA TABLETS*/
+{
+    nav
+    {
+        margin-left: 0;
+        width: 100%;
+    
+        
+    }
+    nav ul
+    {
+        font-size: 20px;
+    }
+    nav ul li a
+    {
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+@media(max-width : 858px) /*PARA MOVILES*/
+{
+    .checkbtn
+    {
+        display: block;
+    }
+    nav
+    {
+        width: 100%;
+        height: 80px;
+        background-color: blueviolet;
+    }
+    ul
+    {
+        position: fixed;
+        width: 80%;
+        height: 100vh;
+        background: #BA83F0;
+        top: 80px;
+        left: -140%;
+        transition: all .3s;
+    }
+
+    nav ul li
+    {
+        display: block;
+        width: 50%;
+        margin: 30px 0;
+        line-height: 10px;
+    }
+    nav ul li a
+    {
+        font-size: 15px;
+    }
+    li.a:hover , li.a.active
+    {
+        background: none;
+        
+    }
+    li.a:hover > ul 
+    {
+        background: none;
+    }
+    #check:checked ~ ul 
+    {
+        left: 0;
+    }
+
+
+
+    header button
+    {
+        display: inline-block;
+        width: 40%;
+        height: 40px;
+        margin-left: 27vh;
+        margin-top: 12vh;
+        font-size: 20px;
+    
+    }
+
+    main section
+    {
+        width: 20%;
+        height: 500%;
+       
+        font-size: 20px;
+    }
+}

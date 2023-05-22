@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Registro en la Web</title>
+    <link rel="stylesheet"  href="../Css/registro.css">
+    
+    
+</head>
+<body>
+    <section>
+        <h1>REGISTRARSE</h1>
+
+        <form id="registro">
+
+             <!-- // Letras, numeros, guion y guion_bajo -->
+            <label for="">Usuario*</label>
+            <input class="Box" type="text" name="Nombre de Usuario" id="nomUser" value="" placeholder="" required>
+        
+            <label for="">Nombre y Apellido*</label>
+            <input class="Box" type="text" name="Nombre" id="nombre" value="" placeholder="" required>
+            
+          
+            <label for="">Correo electrónico*</label>
+            <input class="Box" type="email" name="Correo Electrónico" id="email" value="" placeholder="" required>
+
+           
+           
+            <label for="">Contraseña*</label>
+            <input class="Box" type="password" name="Contraseña 1" id="clave1" value="" placeholder="" required>
+           
+           
+            <label for="">Repetir contraseña*</label>
+            <input class="Box" type="password" name="Contraseña 2" id="clave2"  value="" placeholder="" required>
+
+            
+           
+            <label class="formulario_label">
+                <input  class="terminos_checkbox" type="checkbox" name="" id="terminos">
+                Acepto terminos y condiciones
+            </label>
+            
+
+            
+            <a href="" class="button" type="submit" onclick="formulario(); return false;">Registrarse</a>
+
+           
+
+            
+        </form>
+
+    </section>
+    <script src="../js/validar.js"></script>
+    <script src="../js/sweetalert.js"></script>
+</body>
+</html>
