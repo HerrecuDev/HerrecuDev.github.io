@@ -51,9 +51,9 @@ function formulario()
         Swal.fire({
             icon: 'error',
             title: 'Cuidado!',
-            text: 'El formato de la contraseña no es posible',
+            text: 'La contraseña introducida no es posible, debe tener al menos una minúscula, una mayúscula, un dígito, un carácter especial y tener una longitud entre 8 y 16 caracteres.',
         })            
-        alert("La contraseña introducida no es posible, debe tener al menos una minúscula, una mayúscula, un dígito, un carácter especial y tener una longitud entre 8 y 16 caracteres.")
+        // alert("La contraseña introducida no es posible, debe tener al menos una minúscula, una mayúscula, un dígito, un carácter especial y tener una longitud entre 8 y 16 caracteres.")
         validarDatos = false;
      }
 

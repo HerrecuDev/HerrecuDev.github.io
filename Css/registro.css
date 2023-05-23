@@ -9,8 +9,6 @@
 }
 body
 {
-   background-color: #8EC5FC;
-   background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
    font-family: 'Roboto', sans-serif;
 }
@@ -19,7 +17,7 @@ section h1
     
     text-align: center;
     margin-bottom: 3%;
-    color: rgba(73,155,234,1);
+    color: #6a11cb;
     border-bottom: 2px solid white;
     display: inline-block;
     margin-top: 2%;
@@ -32,13 +30,14 @@ section
     width:800px ;
     height: 700px;
     margin: auto;
-    margin-top: 10%;
-    background-color: black;
+    margin-top: 6%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
 }
 label
 {
-    color: white;
+    color: #6a11cb;;
     font-size: large;
     padding: 4%;
     margin-left: 5%;
@@ -69,7 +68,8 @@ label
     cursor: pointer;
     font-size: 20px;
     color: white;
-    background: rgba(73,155,234,1);
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
     margin-left: 40%;
     margin-top: 4%;
 }
