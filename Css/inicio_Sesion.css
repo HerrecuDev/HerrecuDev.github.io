@@ -11,8 +11,6 @@
 }
 body
 {
-    /* background-image: url(../imagenes/fondoRegistro.jpg); */
-   
     
     font-family: 'Roboto', sans-serif;
 }
@@ -40,20 +38,13 @@ section h1
     display: inline-block;
     
 }
-section img
-{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    width: 16%;
-    height: 18%;
-    margin-left: 42%;
-   
-}
+
 section h2
 {
     
     color: #6a11cb;
     margin-left: 35%;
+    margin-top: 5%;
     margin-bottom: 5%;
     border-bottom: 3px solid black;
     display: inline-block;
