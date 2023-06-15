@@ -80,11 +80,5 @@ label
 }
 
 /*Para validar si lo que escribe el usuario es valido o no :*/
-input:valid
-{
-    border:  5px solid green;
-}
-input:invalid {
-    border: 5px solid red;
-  }
+
 
