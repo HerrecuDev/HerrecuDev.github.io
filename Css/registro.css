@@ -81,4 +81,14 @@ label
 
 /*Para validar si lo que escribe el usuario es valido o no :*/
 
+input:focus:invalid
+{
+    background: url("../imagenes/invalid.png") no-repeat 100% center;
+   
+}
+input:focus:valid
+{
+    background: url("../imagenes/valid.png") no-repeat 100% center;
+}
+
 
